@@ -19,6 +19,8 @@
 body {
 	font-family: "Helvetica","Arial",sans-serif;
 	background-color: hsl(0,100%,50%);
+	display: flex;
+	flex-direction: column;
 }
 
 /* set initial values for bottom margins */
@@ -38,7 +40,8 @@ img {
 /* you can apply styles to every <section> tag by using the
  * element name selector */
 section {
-	padding: 1rem;
+	/* this padding has been cranked up to make sure it shows up past the header element */
+	padding: 10rem; 
 	height: 100vh;
 }
 
@@ -60,7 +63,6 @@ section {
 
 
 
-/* the nav element */
 nav {
 	/* background color*/
 	background-color: hsl(0,0%,0%);
@@ -80,3 +82,24 @@ nav ul li a {
 	/* change the color of the link tags */
 	color: hsl(0,0%,100%);
 }
+
+/* header, not head */
+header {
+
+	/* color and background */
+	color: hsl(0,0%,100%);
+	background-color: hsl(0,0%,50%);
+
+	/* tell this to be sticky - always in the same place on
+	 * screen - and where that place should be */
+	position: sticky;
+	top: 0;
+
+	/* this allows for max flexibility for displaying elements
+	 * along any axix */
+	display: flex;
+}
+
+
+
+
