@@ -56,3 +56,26 @@ section {
 	background-color: hsl(180,100%,80%);
 }
 
+
+
+
+/* the nav element */
+nav {
+	/* background color*/
+	background-color: hsl(0,0%,0%);
+}
+
+
+/* the ul */
+nav ul {
+	/* make into a flex container */
+	display: flex;
+	/* hide the bulleted list discs */
+	list-style: none;
+}
+
+/* the links inside the list items */
+nav ul li a {
+	/* change the color of the link tags */
+	color: hsl(0,0%,100%);
+}
