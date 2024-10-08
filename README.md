@@ -23,7 +23,3 @@ Start by creating the files you need:
 - a file named `index.html` to structure your content 
 - a folder named `css`in order to store your types of documents separately
 - a file named `stylesheet.css` inside of the folder above
-
-
-
-
