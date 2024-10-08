@@ -1,0 +1,36 @@
+/* hard reset of ALL margins and padding for every HTML
+ * element. You have to add them ALL back by hand, but this
+ * is worth it to me....
+ *
+ * it also sets all elements to use the vastly superior
+ * border-box setting to size elements compared to the
+ * default content-box
+ */
+*,*::before,*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* set a background color as a starting point and use
+ * Helvetica if it's available, Arial if isn't, and any
+ * sans-serif one if necessary */
+body {
+	background-color: hsl(60,100%,80%);
+	font-family: "Helvetica","Arial",sans-serif;
+}
+
+/* set initial values for bottom margins */
+h1,h2,h3,h4,h5,h6,p,li,ul {
+	margin-bottom: 1rem;
+}
+
+/* these two lines tell images to always be as wide as
+ * their container, but to never be wider than their actual
+ * pixel value so avoid stretching */
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
