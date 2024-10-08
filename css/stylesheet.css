@@ -17,7 +17,7 @@
  * Helvetica if it's available, Arial if isn't, and any
  * sans-serif one if necessary */
 body {
-	background-color: hsl(60,100%,80%);
+	background-color: hsl(0,100%,50%);
 	font-family: "Helvetica","Arial",sans-serif;
 }
 

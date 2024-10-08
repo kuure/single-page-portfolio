@@ -12,5 +12,5 @@ border values instead of using the default browser setting.
 The settings are commented in the CSS file itself.
 
 There is no text visible in the browser window, but if you open your file
-in a browser now you should see a pale yellow background.
+in a browser now you should see a bright red background.
 
