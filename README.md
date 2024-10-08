@@ -18,4 +18,20 @@ with updated information on the steps performed.
 
 ## Step 04:
 
-### Adding HTML Sections
+### Adding HTML `<sections>`
+
+First I've added three different HTML `<section>` elements, which most
+accurately describe semantically what these parts of the document
+represent.
+
+Each section has a unique `id` attribute; there can only be one of any
+`id` in a document which allows us to differentiate the three sections,
+and the use of the `id` allows us to focus each of these elements
+specifically in the window. 
+
+
+### `<section>` CSS
+
+Each of these sections has been given a different background color; the
+background color of the `<body>` has been set to red in order to make it
+more visible behind the other elements.

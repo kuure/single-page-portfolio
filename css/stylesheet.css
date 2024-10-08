@@ -17,8 +17,8 @@
  * Helvetica if it's available, Arial if isn't, and any
  * sans-serif one if necessary */
 body {
-	background-color: hsl(60,100%,80%);
 	font-family: "Helvetica","Arial",sans-serif;
+	background-color: hsl(0,100%,50%);
 }
 
 /* set initial values for bottom margins */
@@ -32,5 +32,27 @@ h1,h2,h3,h4,h5,h6,p,li,ul {
 img {
 	width: 100%;
 	max-width: 100%;
+}
+
+
+/* you can apply styles to every <section> tag by using the
+ * element name selector */
+section {
+	padding: 1rem;
+}
+
+
+/* each section gets its own background color
+ * based on their IDs */
+#home {
+	background-color: hsl(60,100%,80%);
+}
+
+#about {
+	background-color: hsl(300,100%,80%);
+}
+
+#contact {
+	background-color: hsl(180,100%,80%);
 }
 
