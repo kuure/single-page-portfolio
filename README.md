@@ -1,35 +1,31 @@
 # Single Page Portfolio
 
-## Step 05:
+## Step 06:
 
-### Navigation HTML
+### Full Screen Pages
 
-In order to link between pages, you will need to have some sort of
-navigation element.
+In the previous step, I added links that depend on scrolling content into
+view. On pages with tons of content and internal anchors to sections, this
+is easy to observe.
 
-Here I'm using the standard pattern of an html `<nav>` element, with an
-unordered list inside of it that contains links to the three URLs defined
-by the anchor tags.
+Our page has only very small areas of content and most likely displays on
+your screen with plenty of room to spare, as indicated by the red
+background color. 
 
+With one line of CSS, we can trick the browser into displaying each of
+these "pages" at the full height of the window, regardless of the content
+size. 
 
-### Navigation CSS
+To the `section` selector, add this:
 
-I know I'm going to want a horizontal navigation bar, at least at the wide
-view, so I've styled it this way using Flexbox for flexibility in the
-future. Styling `<nav>` elements can be tricky due to having to apply
-rules at different levels - the outer container, the list items, the
-actual link tags, and so on. 
-
-Generally speaking it's best spend the most time styling the `<a>` tags,
-which are the innermost layer and dictate the clickable area, hover
-values, and so on.
+`height: 100vh;`
 
 
-### Clicking the Links
+Depending on which links you may have clicked prior to reloading the page,
+you may not see what you expect. Scroll to the top of the page, and you
+should see the navigation bar at the very top. If you click a link, your
+entire screen will be filled with one of the HTML `<section>` elements,
+each with a different background.
 
-The links can be clicked, and they cause the URL to change in the browser,
-but they don't really do anything yet because most likely everything is
-visible on the screen at the same time. Tags like this internal anchor to
-an `id` cause the browser to scroll that element into view; right now the
-"pages" are only as tall as their (meager) content so there's nothing to
-scroll.
+
+
