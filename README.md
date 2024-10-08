@@ -5,8 +5,9 @@
 ### Text Editors
 
 To write HTML and CSS, you will need to use a text editor; I recommend you
-use Visual Studio Code. For web development, the extension named **Live
-Server** by Ritwick Dey is invaluable.
+use Visual Studio Code. For web development, the extension named [Live
+Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+by Ritwick Dey is invaluable.
 
 
 ### Files and Folders
@@ -35,4 +36,6 @@ within Visual Studio Code itself.
 VS Code likes to work from within a defined folder; it's always best to
 select "Open Folder" from the `File` menu when you work on projects.
 
+Once you open your files, you should have access to all of the files in
+the sidebar.
 
