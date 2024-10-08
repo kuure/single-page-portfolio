@@ -14,3 +14,6 @@ files to explain various things about the project.
 
 In this case, this file will be different for each **branch** in this repo
 with updated information on the steps performed.
+
+In GitHub, you can select each branch from a drop down menu to see the
+differences along the way.
