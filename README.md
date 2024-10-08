@@ -22,13 +22,13 @@ the places like the title or tab bar.
 
 1. the `<title>` is required for a page to be valid
 1. the two `<meta>` tags are types of catch-alls for any other
-  meta-information you'd like to include in a page for behind-the-scenes
-  uses 
-  - the `charset` attribute states that this document uses the `utf-8` set
-    of characters, which includes basically every known glyph on earth -
-    the `viewport` attribute is important for responsive and mobile design
-    \- it tells the browser to scale everything to default values based on
-    the size of the user's device
+   meta-information you'd like to include in a page for behind-the-scenes
+   uses 
+    - the `charset` attribute states that this document uses the `utf-8`
+      set of characters, which includes basically every known glyph on
+      earth - the `viewport` attribute is important for responsive and
+      mobile design \- it tells the browser to scale everything to default
+      values based on the size of the user's device
 1. finally, the `<link>` element ties another document to this one; it uses
   two attributes:
   - "rel" to establish the *relation* between the documents; in this case
