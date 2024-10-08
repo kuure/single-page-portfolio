@@ -26,4 +26,37 @@ Start by creating the files you need:
 
 
 
+## Step 02: 
+
+Add the standard HTML structure:
+
+- the `<!doctype>` to state what type of document the browser should expect; this signals an HTML5 document
+
+The opening and closing `<html>` tags surround ***everything else in
+the document***. The opening tag includes an _attribute_ named `lang` which indicates that this is in the United States version of English.
+
+
+The opening and closing `<head>` tags come next; these hold the metadata, or the information *about* the page. Elements here are not visible in the browser window, but *can* be seen in the places like the title or tab bar.
+
+- the `<title>` is required for a page to be valid
+- the two `<meta>` tags are types of catch-alls for any other meta-information you'd like to include in a page for behind-the-scenes uses 
+  - the `charset` attribute states that this document uses the `utf-8` set of characters, which includes basically every known glyph on earth - the `viewport` attribute is important for responsive and mobile design - it tells the browser to scale everything to default values based on the size of the user's device
+- finally, the `<link>` element ties another document to this one; it uses two attributes:
+  - "rel" to establish the *relation* between the documents; in this case it indicates that the linked file acts as a stylesheet
+  - "href" to define the HTML style link to actual CSS file
+
+After the close of the `<head>` tags comes the opening and closing `<body>` tags. The body is where the rest of your HTML is going to go; things inside the `<body>` and `</body>` tags are what is visible inside of the browser window.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
